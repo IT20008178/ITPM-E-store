@@ -1,0 +1,43 @@
+@charset"utf-8";
+body{
+    font-family: 'Courier New', Courier, monospace ;
+    /*background-image: url("download10.jpg");*/
+    background:linear-gradient(to top left, #000066 20%, #004D4D 84%);
+}
+
+#wrapper{
+    max-width: 960px;
+    margin:0 auto;
+    background-color:white;
+}
+header{
+    position: relative;
+    height: 200px;
+    padding:4px ;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(245,205,235);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(58,8,82);
+    text-align: center;
+    padding: 3px 40px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(188,145,212);
+  }
+  .active {
+    background-color:rgb(114,7,66);
+  }
